@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crop Suggestion Platform</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body{
+        background-image:url(crops.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <!-- Navigation Bar -->
+    <header class="bg-green-600 text-white p-4">
+      <nav class="flex justify-between items-center">
+        <!-- Left Side (Logo/Title) -->
+        <h1 class="text-3xl font-bold font-serif">Crop Suggestion Platform</h1>
+        
+        <!-- Center (Navigation Links) -->
+        <ul class="flex space-x-6">
+          <li><a href="/" class="text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 hover:bg-green-500">Home</a></li>
+          <li><a href="/about.html" class="text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 hover:bg-green-500">About</a></li>
+          <li><a href="/contact.html" class="text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 hover:bg-green-500">Contact</a></li>
+          <li><a href="/suggestions.html" class="text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 hover:bg-green-500">Crop Suggestions</a></li>
+        </ul>
+  
+        <!-- Right Side (Login & Signup) -->
+        <div class="flex space-x-4">
+          <a href="/login.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</a>
+          <a href="/signup.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Signup</a>
+        </div>
+      </nav>
+    </header>
+  
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('path-to-image.jpg')">
+      <div class="text-center text-white">
+        <h2 class="text-5xl font-bold">Find the Best Crop for Your Land</h2>
+        <p class="text-xl mt-4">Get crop recommendations based on your field size and soil type.</p>
+        <a href="/login.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded mt-6 inline-block">Get Crop Suggestions</a>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+      <p>© 2024 Crop Suggestion Platform. All rights reserved.</p>
+    </footer>
+  
+  </body>
+  </html>
